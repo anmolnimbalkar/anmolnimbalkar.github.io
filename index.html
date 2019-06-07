@@ -24,7 +24,54 @@
 </head>
 
 <body id="page-top">
-
+  <style>
+      .cert-badge {
+        background: url(img/cert-badges.png?v=10&amp;v=10) no-repeat 0 -200px;
+        width: 90px;
+        height: 70px;
+        margin-top: 5px;
+        font-size: 14px;
+        line-height: 40px;
+        padding-right: 5px;
+        display: inline-block !important;
+        vertical-align: middle;
+        zoom: 1;
+        *: ;
+        display: inline;
+        *: ;
+        vertical-align: auto;
+      }
+      .cert-badge.Certified.Administrator {
+          background: url(img/SFU_CRT_BDG_Admin_RGB.jpg?v=1&amp;v=1) no-repeat;
+          padding-right: 0px;
+          background-size: contain;
+      }
+      .cert-badge.Certified.Programmer.I {
+        background: url(img/SFU_CRT_BDG_Pltfrm_Dev_I_RGB.jpg?v=1&amp;v=1) no-repeat;
+        padding-right: 0px;
+        background-size: contain;
+      }
+      .cert-badge.Certified.App.Builder {
+        background: url(img/SFU_CRT_BDG_Pltfrm_App_Blder_RGB.jpg?v=1&amp;v=1) no-repeat;
+        padding-right: 0px;
+        background-size: contain;
+      } 
+      .cert-badge.Certified.Programmer.II {
+        background: url(img/SFU_CRT_BDG_Pltfrm_Dev_II_RGB.jpg?v=1&amp;v=1) no-repeat;
+        padding-right: 0px;
+        background-size: contain;
+      }
+      .cert-badge.Certified.Service.Consultant {
+        background: url(img/SFU_CRT_BDG_Srvc_Cld_Cnsltnt_RGB.jpg?v=1&amp;v=1) no-repeat;
+        padding-right: 0px;
+        background-size: contain;
+      }
+      .cert-badge.Certified.Sales.Consultant {
+        background: url(img/SFU_CRT_BDG_Sls_Cld_Consltnt_RGB.jpg?v=1&amp;v=1) no-repeat;
+        padding-right: 0px;
+        background-size: contain;
+      }
+  </style>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Anmol Nimbalkar</span>
@@ -56,7 +103,7 @@
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#quotes">Favourite Quotes</a>
+          <a class="nav-link js-scroll-trigger" href="#quotes">Quotes</a>
         </li>
       </ul>
     </div>
@@ -187,7 +234,7 @@
             Agile Development &amp; Scrum</li>
         </ul>
 
-        <div class="subheading mb-3">Web Languages &amp; Tools</div>
+        <div class="subheading mb-3" style="margin-top: 15px;">Web Languages &amp; Tools</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
             <i class="fab fa-html5"></i>
@@ -207,26 +254,34 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div class="w-100">
         <h2 class="mb-5">Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Salesforce Certified Sales Cloud Consultant (SU18)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Salesforce Service Cloud Consultant (SU18)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Salesforce Certified Platform Developer II (SP18)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Salesforce Certified Platform Developer I (SU16)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Salesforce Certified Platform App Builder (SP17)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Salesforce Certified Administrator (WI16)</li>
-        </ul>
+        <div class="row">
+          <div class="col-md-6">
+              <ul class="fa-ul mb-0">
+                  <li>
+                    <span class="cert-badge Certified Sales Consultant"></span> &nbsp;
+                    Sales Cloud Consultant</li>
+                  <li>
+                    <span class="cert-badge Certified Service Consultant"></span> &nbsp;
+                    Cloud Consultant</li>
+                  <li>
+                    <span class="cert-badge Certified Programmer II"></span> &nbsp;
+                    Platform Developer II</li>
+                </ul>
+          </div>
+          <div class="col-md-6">
+              <ul class="fa-ul mb-0">
+                  <li>
+                    <span class="cert-badge Certified Programmer I"></span> &nbsp;
+                    Platform Developer I</li>
+                  <li>
+                    <span class="cert-badge Certified App Builder"></span> &nbsp;
+                    Platform App Builder</li>
+                  <li>
+                    <span class="cert-badge Certified Administrator"></span> &nbsp;
+                    Administrator</li>
+                </ul>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -246,15 +301,25 @@
       <div class="w-100">
         <h2 class="mb-5">Quotes</h2>
         <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-quote-left text-warning"></i>
-            I believe there’s a hero in all of us, that keeps us honest, gives us strength, makes us noble, and finally allows us to die with pride. Even though sometimes we have to be steady, and give up the thing we want most. Even our dreams.
-            <i class="fa-li fa fa-quote-right text-warning"></i>
+            <li style="padding: 15px;">
+                <hr class="m-0">
+                <i class="fa-li fa fa-quote-left text-warning" style="padding-top: 10px;padding-left: 20px;"></i><br/>
+                What?! I'm not small! It's the world that's too big!! <b>– Fullmetal Alchemist </b><br/>
+            </li>
+          <li style="padding: 15px;">
+            <i class="fa-li fa fa-quote-left text-warning" style="padding-top: 10px;padding-left: 20px;"></i><br/>
+              You can take away my suits, you can take away my home, 
+                but there’s one thing you can never take away from me. I am Iron Man. <b>– Iron Man </b><br/>
           </li>
-          <li>
-            <i class="fa-li fa fa-quote-left text-warning"></i>
-            You can take away my suits, you can take away my home, but there’s one thing you can never take away from me. I am Iron Man.
-            <i class="fa-li fa fa-quote-right text-warning"></i>
+          <li style="padding: 15px;">
+              <hr class="m-0">
+              <i class="fa-li fa fa-quote-left text-warning" style="padding-top: 10px;padding-left: 20px;"></i><br/>
+              believe there’s a hero in all of us, that keeps us honest, gives us strength, makes us noble, and finally allows us to die with pride. Even though sometimes we have to be steady, and give up the thing we want most. Even our dreams. <b>– Spiderman </b><br/>
+            </li>
+          <li style="padding: 15px;">
+              <hr class="m-0">
+              <i class="fa-li fa fa-quote-left text-warning" style="padding-top: 10px;padding-left: 20px;"></i><br/>
+              Life doesn’t give us purpose. We give life purpose. <b>– The Flash </b><br/>
           </li>
         </ul>
       </div>
